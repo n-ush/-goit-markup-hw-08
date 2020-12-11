@@ -1277,7 +1277,6 @@ ul {
   fill: #2196f3;
 }
 
-/*Модальное окно*/
 .backdrop {
   position: fixed;
   background: rgba(0, 0, 0, 0.2);
