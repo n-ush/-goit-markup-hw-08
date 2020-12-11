@@ -1,0 +1,105 @@
+
+.aboutus-headers {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: $heading-text-color;
+}
+
+.work-img {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: $text-on-background;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-about-us .list-style {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
+}
+
+.about-us-list {
+  .aboutus-headers {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  .aboutus-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .section-about-us &:not(:last-child) {
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    @media screen and (max-width: 767px) {
+      margin-right: 0px;
+      margin-bottom: 30px;
+    }
+  }
+  .section-about-us &:nth-child(2n) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+  }
+
+  .section-about-us & {
+    width: 270px;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: 354px;
+    }
+    @media screen and (max-width: 767px) {
+      width: 450px;
+    }
+  }
+}
+
+.section-about-us .about-us-img {
+  width: 70px;
+  height: 70px;
+}
+
+.section-about-us .about-us-back-img {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  border-radius: 4px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 354px;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+}
+
+.about-us-back-img {
+  display: flex;
+}

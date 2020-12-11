@@ -1,0 +1,46 @@
+/* Разметка блоков */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+
+  .header > & {
+    display: flex;
+  }
+
+  .section-hero > & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-about-us & {
+    padding-top: 94px;
+    padding-bottom: 47px;
+    @media screen and (max-width: 767px) {
+      padding-top: 60px;
+    }
+  }
+
+  .section-our-occupation & {
+    padding-top: 47px;
+    padding-bottom: 94px;
+  }
+
+  .section-list-name &,
+  .section-content-portfolio & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

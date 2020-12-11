@@ -1,0 +1,28 @@
+
+.section-our-occupation .section-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.section-our-occupation .list-style {
+  display: flex;
+}
+
+.section-our-occupation .list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-occupation-list {
+  position: relative;
+  min-width: 370px;
+}
+
+.section-our-occupation .background-text {
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  min-width: 370px;
+  bottom: 0;
+}

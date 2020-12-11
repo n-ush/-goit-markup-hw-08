@@ -1,0 +1,18 @@
+$footer-email-telefon: rgba(255, 255, 255, 0.6);
+$header-email-telefon: #757575;
+$text-color: #757575;
+$header-color-logo: #000000;
+$logo-color-web: #2196f3;
+$link-changing-color: #2196f3;
+$text-on-background: #ffffff;
+$heading-text-color: #212121;
+$body-color: #ffffff;
+
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: $text-color;
+  background-color: $body-color;
+  margin: 0px;
+}

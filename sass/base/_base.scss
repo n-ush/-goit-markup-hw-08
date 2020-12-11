@@ -1,0 +1,60 @@
+/* создание border-box */
+html {
+  box-sizing: border-box;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: $text-color;
+  background-color: $body-color;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-style: none;
+}
+
+/* обнуление марджинов*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*отключаем подчеркивание в ссылках*/
+.underline {
+  text-decoration: none;
+}
+
+/* Скрывает заголовок*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*h2 заголовки в секции*/
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.17;
+  color: $heading-text-color;
+}

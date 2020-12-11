@@ -1,0 +1,10 @@
+/*Стилизация списков*/
+.list-style {
+  margin: 0px;
+
+  /* Убираем маркеры "наша команда" */
+  > li,
+  &-icon {
+    list-style-type: none;
+  }
+}
